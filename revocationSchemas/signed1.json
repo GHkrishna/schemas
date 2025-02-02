@@ -1,0 +1,26 @@
+{
+  "context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "https://ghkrishna.github.io/schemas/revocationSchemas/signed1.json",
+  "type": ["VerifiableCredential", "BitstringStatusListCredential"],
+  "issuer": {
+    "id": "did:key:z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB"
+  },
+  "issuanceDate": "2019-10-12T07:20:50.52Z",
+  "credentialSubject": {
+    "id": "https://ghkrishna.github.io/schemas/revocationSchemas/signed1.json#1",
+    "claims": {
+      "type": "BitstringStatusList",
+      "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+      "statusPurpose": "revocation"
+    }
+  },
+  "proof": {
+    "verificationMethod": "did:key:z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB#z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB",
+    "type": "Ed25519Signature2018",
+    "created": "2024-07-08T12:24:04Z",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..hOr9nyr4dlQx1VOMgBow5AeLNrIQ1We0kvR1dFT0AQKkS_lIu-AruZpNVgVCMVlHiFrj-qFYr36YUTwTzUwiAw"
+  }
+}
