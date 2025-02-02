@@ -1,0 +1,23 @@
+{
+  "format": "ldp_vc",
+  "credential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/vc/status-list/2021/v1"
+    ],
+    "id": "https://raw.githubusercontent.com/GHkrishna/schemas/refs/heads/main/revocationSchemas/1.json",
+    "type": ["VerifiableCredential", "BitstringStatusListCredential"],
+    "issuer": {
+      "id": "did:key:z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB"
+    },
+    "issuanceDate": "2019-10-12T07:20:50.52Z",
+    "credentialSubject": {
+      "id": "https://raw.githubusercontent.com/GHkrishna/schemas/refs/heads/main/revocationSchemas/1.json#list",
+      "type": "BitstringStatusList",
+      "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+      "statusPurpose": "revocation"
+    }
+  },
+  "verificationMethod": "did:key:z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB#z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB",
+  "proofType": "Ed25519Signature2018"
+}
