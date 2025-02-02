@@ -10,11 +10,9 @@
   "issuanceDate": "2019-10-12T07:20:50.52Z",
   "credentialSubject": {
     "id": "https://ghkrishna.github.io/schemas/revocationSchemas/signed1.json#1",
-    "claims": {
-      "type": "BitstringStatusList",
-      "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
-      "statusPurpose": "revocation"
-    }
+    "type": "BitstringStatusList",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
   },
   "proof": {
     "verificationMethod": "did:key:z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB#z6Mkeopj4vD9VWrKoXtvWXTNa5RWMmtMRf3wN69iV8wTdrBB",
