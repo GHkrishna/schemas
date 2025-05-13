@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Reporting a feature request/enhancement to CREDEBL
+        ## Reporting a bug on CREDEBL
         
         Thank you for taking time to report the bug on CREDEBL, your contribution will help
         make the product better for everyone.
