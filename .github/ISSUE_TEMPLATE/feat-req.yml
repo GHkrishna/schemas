@@ -22,7 +22,6 @@ body:
         * Is tested against the [**latest stable**](https://github.com/facebook/react-native/releases/) of React Native.
 
         🚨 IMPORTANT: Due to the extreme number of bugs we receive, issues **without a reproducer** or for an [**unsupported versions**](https://github.com/reactwg/react-native-releases#which-versions-are-currently-supported) of React Native **will be closed**.
-  - type: textarea
   - type: checkboxes
     id: preliminary-checks
     attributes:
