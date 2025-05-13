@@ -10,8 +10,7 @@ body:
         Thank you for taking the time to create a feature request for CREDEBL, your contribution will help
         make the product better for everyone.
 
-        Make sure that your issue:
-        * Has a generous description that will help other to understand and fix it at the earliest.
+        Make sure your issue has a generous description that will help others understand and fix it at earliest.
 
   - type: checkboxes
     id: preliminary-checks
