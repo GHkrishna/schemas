@@ -1,4 +1,5 @@
 name: "\U0001F680 Feature Request - new"
+title: "feat: "
 description: Suggest an idea or enhancement for CREDEBL platform
 labels: [enhancement, needs-triage]
 body:
