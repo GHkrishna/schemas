@@ -15,6 +15,7 @@ body:
         - label: "I'm willing to create a PR for this feature. (if applicable)."
   - type: textarea
     attributes:
+      label: Details
       description: some-description
       value: |
         ## 🧩 Problem Statement
